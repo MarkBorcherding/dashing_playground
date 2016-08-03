@@ -15,4 +15,7 @@ map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
 
+require 'rack-livereload'
+use Rack::LiveReload
+
 run Sinatra::Application
