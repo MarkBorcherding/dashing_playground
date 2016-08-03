@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'dashing'
+gem 'slim'
 
 group :development do
   gem 'guard'
